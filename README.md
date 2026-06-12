@@ -1,1 +1,1 @@
-# QNucleiNet-End-to-End-Nuclei-Quantification-in-H-E-Whole-Slide-Images
+# CellQuant-Net:End-to-End-Nuclei-Quantification-in-H-E-Whole-Slide-Images
