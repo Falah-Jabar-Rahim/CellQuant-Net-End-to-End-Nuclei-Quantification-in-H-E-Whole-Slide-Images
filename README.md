@@ -72,15 +72,15 @@ Check out the paper: [Paper]
 
 | Dataset | Type | Magnification |
 |----------|--------|---------------|
-| PanNuke | Multi-organ | 40× |
-| CoNSeP | Single-organ | 40× |
-| ILCD | Single-organ | 40× |
-| Lizard | Single-organ | 20× |
-| NuCLS | Single-organ | 20× |
-| PanopTILs | Single-organ | 40× |
-| SegPath | Multi-organ | 40× |
-| TNMI-20X | Single-organ | 20× |
-| TNMI-40X | Single-organ | 40× |
+| PanNuke | Multi-organ |  40× |
+| CoNSeP | Single-organ |  40× |
+| ILCD | Single-organ |  40× |
+| Lizard | Single-organ |  20× |
+| NuCLS | Single-organ |  20× |
+| PanopTILs | Single-organ |  40× |
+| SegPath | Multi-organ |  40× |
+| TNMI-20x | Single-organ |  20× |
+| TNMI-40x | Single-organ |  40× |
 
 Summary: Trained on 9 datasets spanning both single-organ and multi-organ cohorts at 20× and 40× magnifications.
 
