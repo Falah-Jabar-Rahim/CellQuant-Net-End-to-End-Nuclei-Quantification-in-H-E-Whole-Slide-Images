@@ -38,11 +38,9 @@
 
 
 
-# Fully Automatic Content-Aware Tiling Pipeline for Pathology Whole Slide Images
 
 
-<p align="justify"> Tiling (or patching) histology Whole Slide Images (WSIs) is a required initial step in the development of deep learning (DL) models. Gigapixel-scale WSIs must be divided into smaller, manageable image tiles. Standard WSI tiling techniques often exclude diagnostically important tissue regions or include regions with artifacts such as folds, blurs, and pen-markings, which can significantly degrade DL model performance and analysis. This paper introduces WSI-SmartTiling, a fully automated, deep learning-based, content-aware WSI tiling pipeline designed to include maximal information content from WSI. A supervised DL model for artifact detection was developed using pixel-based semantic segmentation at high magnification (20x and 40x) to classify WSI regions as either artifacts or qualified tissue. The model was trained on a diverse dataset and validated using both internal and external datasets. Quantitative and qualitative evaluations demonstrated its superiority, outperforming state-of-the-art methods with accuracy, precision, recall, and F1 scores exceeding 95% across all artifact types, along with Dice scores above 94%. In addition, WSI-SmartTiling integrates a generative adversarial network model to reconstruct tissue regions obscured by pen-markings in various colors, ensuring relevant valuable areas are preserved. Lastly, while excluding artifacts, the pipeline efficiently tiles qualified tissue regions with minimum tissue loss.
-In conclusion, this high-resolution preprocessing pipeline can significantly improve pathology WSI-based feature extraction and DL-based classification by minimizing tissue loss and providing high-quality – artifact-free – tissue tiles. </p>
+<p align="justify">  </p>
 
 Check out the paper: [Paper](https://www.sciencedirect.com/science/article/pii/S266652122500122X?via%3Dihub)
 
@@ -50,7 +48,7 @@ Check out the paper: [Paper](https://www.sciencedirect.com/science/article/pii/S
 
 1. System requirements:
 - Ubuntu 20.04 or 22.04
-- CUDA version: 12.2
+- CUDA version: 12.8
 - Python version: 3.9 (using conda environments)
 - Anaconda version 23.7.4
 2. Steps to Set Up the Pipeline:
