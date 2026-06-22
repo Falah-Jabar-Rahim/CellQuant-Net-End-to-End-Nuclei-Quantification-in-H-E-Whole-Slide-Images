@@ -84,6 +84,8 @@ TNMI-40X	Single-organ	40×
 
 Summary: Trained on 9 datasets spanning both single-organ and multi-organ cohorts at 20× and 40× magnifications.
 
+Summary: Trained on 9 datasets spanning both single-organ and multi-organ cohorts at 20× and 40× magnifications.
+
   
 # Datasets:
 
