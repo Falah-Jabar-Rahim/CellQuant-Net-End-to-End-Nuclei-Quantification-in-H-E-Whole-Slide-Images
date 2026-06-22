@@ -62,9 +62,9 @@ Check out the paper: [Paper](https://www.sciencedirect.com/science/article/pii/S
 
 # Demo:
 
-- Downlaod: [test WSI](https://portal.gdc.cancer.gov/files/5bd34bab-6a75-4d62-ab9d-0ada84414776)
-- put the WSI in the input folder
-- run the command `python run_cellquant_net.py  --cpu_workers 32  --batch_size 128 --cell_connectivity   --model_type tnmi_20x.pth`
+- Downlaod a [test WSI](https://portal.gdc.cancer.gov/files/5bd34bab-6a75-4d62-ab9d-0ada84414776)
+- Place the downloaded WSI in the input folder
+- Run CellQuant-Net: `python run_cellquant_net.py  --cpu_workers 32  --batch_size 128 --cell_connectivity   --model_type tnmi_20x.pth`
 
 
 
