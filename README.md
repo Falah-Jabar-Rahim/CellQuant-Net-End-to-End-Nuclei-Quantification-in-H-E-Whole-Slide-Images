@@ -68,7 +68,7 @@ Check out the paper: [Paper]
 - Run CellQuant-Net: `python run_cellquant_net.py  --cpu_workers 32  --batch_size 128 --cell_connectivity   --model_type TNMI20x.pth`
 
 
-## Training Datasets
+# Pre-trained Models
 
 | Dataset | Type | Magnification |
 |----------|--------|---------------|
