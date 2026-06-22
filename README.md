@@ -58,19 +58,14 @@ Check out the paper: [Paper](https://www.sciencedirect.com/science/article/pii/S
 - `chmod +x install.sh`
 - `./install.sh`
 - `conda activate cellquantnet`
-- 
-- Download the pipeline to your Desktop
-- Navigate to the downloaded pipeline folder
-- Right-click within the pipeline folder and select Open Terminal
-- Create a conda environment:
-`conda create -n WSISmartTiling python=3.9`
+- `python verify_installation.py`
 
-- Activate the environment:
-  `conda activate WSISmartTiling`
 
-- Install required packages:
-  `pip install -r requirements.txt`
 
+
+
+
+  
 # Datasets:
 
 - Contact the corresponding author to access the datasets described in the paper
