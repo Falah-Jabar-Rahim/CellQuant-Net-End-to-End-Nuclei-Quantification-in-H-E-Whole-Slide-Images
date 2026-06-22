@@ -1,5 +1,5 @@
 # CellQuant-Net:End-to-End-Nuclei-Quantification-in-H-E-Whole-Slide-Images
-
+![WSI-QA](./Figs/Fig.1.png)
 
 
 
@@ -40,7 +40,6 @@
 
 # Fully Automatic Content-Aware Tiling Pipeline for Pathology Whole Slide Images
 
-![WSI-QA](./Figs/Fig.2.png)
 
 <p align="justify"> Tiling (or patching) histology Whole Slide Images (WSIs) is a required initial step in the development of deep learning (DL) models. Gigapixel-scale WSIs must be divided into smaller, manageable image tiles. Standard WSI tiling techniques often exclude diagnostically important tissue regions or include regions with artifacts such as folds, blurs, and pen-markings, which can significantly degrade DL model performance and analysis. This paper introduces WSI-SmartTiling, a fully automated, deep learning-based, content-aware WSI tiling pipeline designed to include maximal information content from WSI. A supervised DL model for artifact detection was developed using pixel-based semantic segmentation at high magnification (20x and 40x) to classify WSI regions as either artifacts or qualified tissue. The model was trained on a diverse dataset and validated using both internal and external datasets. Quantitative and qualitative evaluations demonstrated its superiority, outperforming state-of-the-art methods with accuracy, precision, recall, and F1 scores exceeding 95% across all artifact types, along with Dice scores above 94%. In addition, WSI-SmartTiling integrates a generative adversarial network model to reconstruct tissue regions obscured by pen-markings in various colors, ensuring relevant valuable areas are preserved. Lastly, while excluding artifacts, the pipeline efficiently tiles qualified tissue regions with minimum tissue loss.
 In conclusion, this high-resolution preprocessing pipeline can significantly improve pathology WSI-based feature extraction and DL-based classification by minimizing tissue loss and providing high-quality – artifact-free – tissue tiles. </p>
