@@ -54,7 +54,7 @@ Check out the paper: [Paper]
 2. Steps to Set Up the Pipeline:
 - Open terminal 
 - `cd ~/Desktop`
-- Bash `git clone https://github.com/Falah-Jabar-Rahim/CellQuant-Net-End-to-End-Nuclei-Quantification-in-H-E-Whole-Slide-Images.git CellQuant-Net`
+- `git clone https://github.com/Falah-Jabar-Rahim/CellQuant-Net-End-to-End-Nuclei-Quantification-in-H-E-Whole-Slide-Images.git CellQuant-Net`
 - `cd CellQuant-Net`
 - `chmod +x install.sh`
 - `./install.sh`
