@@ -1,4 +1,4 @@
-# CellQuant-Net:End-to-End-Nuclei-Quantification-in-H-E-Whole-Slide-Images
+# CellQuant
 ![WSI-QA](./Figs/Fig1.png)
 
 
