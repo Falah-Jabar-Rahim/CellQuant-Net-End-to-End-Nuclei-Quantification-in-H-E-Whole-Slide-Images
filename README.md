@@ -66,7 +66,7 @@ Check out the paper: [Paper]
 - Place the downloaded WSI in the input folder
 - Run CellQuant-Net: `python run_cellquant_net.py  --cpu_workers 32  --batch_size 128 --cell_connectivity   --model_type TNMI20x.pth`
 
-# Demo:
+# 🎥 Watch the Demo:
 [![Installation Tutorial](Figs/Demo.png)](https://youtu.be/RhCJnUfuYkA?is=Jc4keTUtecEcjeZd)
 
 
