@@ -90,7 +90,6 @@ Contact the corresponding author to request access to the pre-trained models
 After running CellQuant-Net, all results are saved in the output directory:
 
 1. Quality Assessment (QA)
-Plain text
 output/
 └── QA/
     ├── WSI1/
