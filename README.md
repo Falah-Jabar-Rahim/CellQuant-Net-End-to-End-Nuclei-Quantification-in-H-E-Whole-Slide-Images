@@ -99,9 +99,6 @@ output/
     └── WSI_Summary.xlsx
 ```
 For each WSI, the QA module generates:
-
-### Quality Assessment (QA) Outputs
-
 | File/Folder | Description |
 |-------------|-------------|
 | `Qualified/` | High-quality image tiles selected for analysis. |
@@ -112,8 +109,6 @@ For each WSI, the QA module generates:
 | `*_thumbnail_roi.png` | Thumbnail highlighting the selected tissue regions. |
 | `*_stats.xlsx` | Tile-level and WSI-level quality assessment statistics. |
 | `WSI_Summary.xlsx` | Summary statistics for all processed WSIs. |
-Summary statistics for all processed WSIs.
-
 
 
 - Place your Whole Slide Image (WSI) into the `test_wsi` folder
