@@ -61,22 +61,16 @@ Check out the paper: [Paper]
 - `conda activate cellquantnet`
 - `python verify_installation.py`
 
-# Demo:
-## Installation Video
-
-
-[![Installation Tutorial](Figs/Demo.png)](https://youtu.be/RhCJnUfuYkA?is=Jc4keTUtecEcjeZd)
-
-
-
-
+# Inference:
 - Downlaod a [test WSI](https://portal.gdc.cancer.gov/files/5bd34bab-6a75-4d62-ab9d-0ada84414776)
 - Place the downloaded WSI in the input folder
 - Run CellQuant-Net: `python run_cellquant_net.py  --cpu_workers 32  --batch_size 128 --cell_connectivity   --model_type TNMI20x.pth`
 
+# Demo:
+[![Installation Tutorial](Figs/Demo.png)](https://youtu.be/RhCJnUfuYkA?is=Jc4keTUtecEcjeZd)
+
 
 # Pre-trained Models
-
 | Dataset | Type | Magnification |
 |----------|--------|---------------|
 | PanNuke | Multi-organ |  40× |
