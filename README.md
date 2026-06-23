@@ -63,10 +63,10 @@ Check out the paper: [Paper]
 
 # Quick Test:
 - Download a [test WSI](https://portal.gdc.cancer.gov/files/5bd34bab-6a75-4d62-ab9d-0ada84414776)
-- Place the downloaded WSI in the input folder
-- Obtain the pretrained model weights for WSI-QA and CP-Net, then place the CP-Net weights in CP-Net/weights/ and the WSI-QA weights in WSI_QA/pretrained_ckpt/
+- Place the downloaded WSI in the `input` folder
+- Obtain the pretrained model weights for WSI-QA and CP-Net, then place the CP-Net weights in `CP-Net/weights/` and the WSI-QA weights in `WSI_QA/pretrained_ckpt/`
 - Run CellQuant-Net: `python run_cellquant_net.py  --cpu_workers 32  --batch_size 128 --cell_connectivity   --model_type TNMI20x.pth`
-- After running CellQuant-Net, all results are saved in the output directory
+- After running CellQuant-Net, all results are saved in the `output` directory
 
 
 # 🎥 Watch the Demo:
