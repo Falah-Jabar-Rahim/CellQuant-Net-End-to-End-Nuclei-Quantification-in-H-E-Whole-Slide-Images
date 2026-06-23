@@ -65,7 +65,7 @@ Check out the paper: [Paper]
 ## Installation Video
 
 
-[![Installation Tutorial](Figs/Demo.png)](https://github.com/Falah-Jabar-Rahim/CellQuant-Net-End-to-End-Nuclei-Quantification-in-H-E-Whole-Slide-Images/raw/refs/heads/main/Figs/Demo.mp4)
+[![Installation Tutorial](Figs/Demo.png)](https://youtu.be/RhCJnUfuYkA?is=Jc4keTUtecEcjeZd)
 
 
 
