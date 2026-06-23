@@ -110,6 +110,25 @@ For each WSI, the QA module generates:
 | `*_stats.xlsx` | Tile-level and WSI-level quality assessment statistics. |
 | `WSI_Summary.xlsx` | Summary statistics for all processed WSIs. |
 
+### Cell Detection and Classification (CP-Net)
+```text
+output/
+└── CP_Net/
+    ├── WSI1/
+    ├── WSI2/
+    ├── ...
+```
+
+For each WSI, the CP-Net module generates:
+
+| File/Folder | Description |
+|-------------|-------------|
+| `qupath_cells.geojson` | Detected cells exported in QuPath-compatible GeoJSON format. |
+| `cell_type_stats.csv` | Cell counts and percentages for each cell type. |
+| `cell_neighborhood/` | Cell spatial connectivity analysis results. |
+| `connectivity_edges.csv` | Cell-to-cell connectivity graph edges. |
+| `qupath_cells_connectivity.geojson` | Connectivity graph exported for visualization in QuPath. |
+
 
 - Place your Whole Slide Image (WSI) into the `test_wsi` folder
 - The pre-trained weights for artifact detection are available in the `pretrained_ckpt` folder, while the weights for pen-marker removal are located in the `Ink_Removal/pre-trained` folder
