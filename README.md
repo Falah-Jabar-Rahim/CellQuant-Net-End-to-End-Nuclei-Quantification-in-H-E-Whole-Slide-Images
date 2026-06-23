@@ -85,11 +85,17 @@ Check out the paper: [Paper]
 
 Contact the corresponding author to request access to the pre-trained models
 
-# Inference:
+# Output Structure
 
-<p align="justify"> <p align="justify">
-The pipeline begins by identifying tissue regions within the whole-slide image (WSI) and dividing them into smaller image tiles (e.g., 256×256 pixels). Each tile is then analyzed using a quality assessment module to detect common artifacts, including blur, folds, pen markings, and background regions. Tiles with excessive artifacts or insufficient tissue content are excluded, while high-quality tissue tiles are retained for further analysis. The selected tiles are subsequently processed by CP-Net for nuclei detection, classification, and quantification. Finally, tile-level predictions are aggregated to generate WSI-level outputs, including cell statistics and Qupath cpmpatible visualization overlays. the out put are genrated in the output folder:
+After running CellQuant-Net, all results are saved in the output directory:
 
+1. Quality Assessment (QA)
+output/
+└── QA/
+    ├── WSI1/
+    ├── WSI2/
+    ├── ...
+    ├── WSI_Summary.xlsx
 	
 </p>
  </p>
