@@ -1,0 +1,47 @@
+### Cell detection Configs ###
+
+experiment_name: "DetectCellNet_HE_H"
+
+data:
+  input_mode: "he_plus_h"
+  use_raw_h: false
+  tile_size: 256
+  save_overlays: false # Save tile-level cell overlay visualization
+  save_seg: false      # Save predicted cell segmentation map (save_overlays should be true)
+model:
+  backbone: "unireplknet_n"
+  prob_threshold: 0.50      # for validation & saving predictions
+  fuse_mode: "mul" # mul, wsum or mean
+  fuse_alpha: 0.5
+  num_classes: 4  # 0 = background, 1 = tumor, 2 = TILs, 3 = other
+  class_names:   # background no need
+    1: "Tumor"
+    2: "TILs"
+    3: "Other"
+
+postprocessing:
+    20x:
+      erode_r: 0
+      gsize: [ 5, 5 ]
+      marker_method: "peak"   # hmin or peak
+      h_min: 3.0
+      peak_min_distance: 4.0
+      peak_threshold_abs: 2.0
+      min_area: 10
+    40x:
+      erode_r: 0
+      gsize: [ 3, 3 ]
+      marker_method: "peak"   # or: peak
+      h_min: 3.0
+      peak_min_distance: 8
+      peak_threshold_abs: 2.0
+      min_area: 10
+
+
+class_colors:
+  1: [255, 0, 0]    # red
+  2: [0, 255, 0]    # green
+  3: [255, 255, 0]    # yellow
+normalize:
+  mean: [0.5, 0.5, 0.5]
+  std: [0.5, 0.5, 0.5]
