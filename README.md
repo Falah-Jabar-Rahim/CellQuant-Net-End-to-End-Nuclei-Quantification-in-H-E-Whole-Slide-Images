@@ -37,14 +37,14 @@ Check out the paper: [Paper]
 | Model | Type | Magnification |
 |----------|--------|---------------|
 | PanNuke.pth | Multi-organ |  40× |
-| CoNSeP.pth | Single-organ |  40× |
-| ILCD.pth | Single-organ |  40× |
-| Lizard.pth | Single-organ |  20× |
-| NuCLS.pth | Single-organ |  20× |
-| PanopTILs.pth | Single-organ |  40× |
+| CoNSeP.pth | Single-organ (Colon) |  40× |
+| ILCD.pth | Single-organ (Liver) |  40× |
+| Lizard.pth | Single-organ (Colon) |  20× |
+| NuCLS.pth | Single-organ (Breast) |  20× |
+| PanopTILs.pth | Single-organ (Breast) |  40× |
 | SegPath.pth | Multi-organ |  40× |
-| TNMI20x.pth | Single-organ |  20× |
-| TNMI40x.pth | Single-organ |  40× |
+| TNMI20x.pth | Single-organ (Lung) |  20× |
+| TNMI40x.pth | Single-organ (Lung)|  40× |
 
 CP-Net was trained on multiple public and private datasets to support diverse downstream digital pathology applications. Contact the corresponding author to request access to the pre-trained models for WSI-QA and CP-Net models.
 
