@@ -95,7 +95,7 @@ For each WSI, the CP-Net module generates:
 # Intrence Time 
 the CellQuant-Net infrence time for 2 WSIs, one: 20x W≠31871 H≠25199, and othe one  40x, W≠44125, H≠70507 is about 
 
-!(./Figs/Fig2.png)
+(./Figs/Fig2.png)
 
 
 
