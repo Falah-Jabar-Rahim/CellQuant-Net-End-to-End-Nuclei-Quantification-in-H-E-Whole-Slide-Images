@@ -92,7 +92,7 @@ For each WSI, the CP-Net module generates:
 | `qupath_cells_connectivity.geojson` | Connectivity graph exported for visualization in QuPath. |
 
 
-# Intrence Time 
+# End-to-End Inference Time
 The CellQuant-Net pipeline processed two whole-slide images (WSIs), including a 20× WSI (31,871 × 25,199 pixels) and a 40× WSI (44,125 × 70,507 pixels), in a total of approximately 24 min (1,447 s) using a single NVIDIA GeForce RTX 4090 GPU (24 GB VRAM, CUDA 12.8).
 
 ![WSI-QA](./Figs/Fig2.png)
